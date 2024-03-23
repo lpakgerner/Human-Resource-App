@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="3acb33792f3cc61012d324c62799b690" extends="task" label="Human Resources Task" max_length="40" name="x_1327411_hr_human_resources_task" type="collection">
+        <element label="Requested for" mandatory="true" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+    </element>
+</database>

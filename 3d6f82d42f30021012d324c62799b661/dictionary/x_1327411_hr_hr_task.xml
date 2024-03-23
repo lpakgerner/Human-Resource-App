@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="264454812f70c21012d324c62799b6c6" extends="task" label="HR Task - archive" max_length="40" name="x_1327411_hr_hr_task" type="collection"/>
+</database>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Closed Information" section_id="26ea04b52fb8861012d324c62799b6da" sys_domain="global" table="x_1327411_hr_hr_task" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 22:31:51</sys_created_on>
+            <sys_id>7eea44b52fb8861012d324c62799b6b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closed Information" display_value="Closed Information" name="x_1327411_hr_hr_task" sys_domain="global" view="Default view">26ea04b52fb8861012d324c62799b6da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 22:31:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 22:31:51</sys_created_on>
+            <sys_id>76ea44b52fb8861012d324c62799b6b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closed Information" display_value="Closed Information" name="x_1327411_hr_hr_task" sys_domain="global" view="Default view">26ea04b52fb8861012d324c62799b6da</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 22:31:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Closed Information</caption>
+            <header>false</header>
+            <name>x_1327411_hr_hr_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-07 22:31:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>26ea04b52fb8861012d324c62799b6da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1327411_hr_hr_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+            <sys_update_name>sys_ui_section_26ea04b52fb8861012d324c62799b6da</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-07 22:31:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

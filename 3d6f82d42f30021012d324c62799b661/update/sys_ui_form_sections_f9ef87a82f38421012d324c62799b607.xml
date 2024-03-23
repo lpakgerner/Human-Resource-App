@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f9ef87a82f38421012d324c62799b607" sys_domain="global" table="x_1327411_hr_human_resource" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-04 15:40:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5ef87a82f38421012d324c62799b655</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1327411_hr_human_resource" name="x_1327411_hr_human_resource" sys_domain="global" view="Default view">f9ef87a82f38421012d324c62799b607</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1327411_hr_human_resource" sys_domain="global" view="Default view">7e1fc3282f38421012d324c62799b685</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-04 15:40:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-04 15:40:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1ef87a82f38421012d324c62799b656</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1327411_hr_human_resource" name="x_1327411_hr_human_resource" sys_domain="global" view="Default view">f9ef87a82f38421012d324c62799b607</sys_ui_form>
+            <sys_ui_section caption="Variables" display_value="Variables" name="x_1327411_hr_human_resource" sys_domain="global" view="Default view">31ef87a82f38421012d324c62799b607</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-04 15:40:04</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-04 15:43:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>89a0d7e82f38421012d324c62799b6fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1327411_hr_human_resource" name="x_1327411_hr_human_resource" sys_domain="global" view="Default view">f9ef87a82f38421012d324c62799b607</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_1327411_hr_human_resource" sys_domain="global" view="Default view">b8a0d7e82f38421012d324c62799b6f9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-04 15:43:17</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-04 15:43:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>45a01be82f38421012d324c62799b600</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1327411_hr_human_resource" name="x_1327411_hr_human_resource" sys_domain="global" view="Default view">f9ef87a82f38421012d324c62799b607</sys_ui_form>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="x_1327411_hr_human_resource" sys_domain="global" view="Default view">b0a0d7e82f38421012d324c62799b6fa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-04 15:43:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1327411_hr_human_resource</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-04 15:40:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9ef87a82f38421012d324c62799b607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1327411_hr_human_resource</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f9ef87a82f38421012d324c62799b607</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-04 15:40:04</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

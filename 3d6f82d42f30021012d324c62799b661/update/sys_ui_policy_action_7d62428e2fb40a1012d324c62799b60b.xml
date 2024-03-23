@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>assignment_group</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-09 01:52:29</sys_created_on>
+        <sys_id>7d62428e2fb40a1012d324c62799b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>assignment_group</sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7d62428e2fb40a1012d324c62799b60b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-09 01:52:29</sys_updated_on>
+        <table>x_1327411_hr_human_resources_task</table>
+        <ui_policy display_value="HTK Table - mandatory fields">b3e1c20e2fb40a1012d324c62799b6fe</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

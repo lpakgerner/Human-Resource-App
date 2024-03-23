@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>HR Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>HR Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">4b8574397d31311076daf29f52070d17</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 14:51:28</sys_created_on>
+        <sys_id>675ec80d2f30c21012d324c62799b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Task</sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>sys_wizard_answer_675ec80d2f30c21012d324c62799b668</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 14:51:28</sys_updated_on>
+        <table/>
+        <target_url>x_1327411_hr_hr_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Human Resource">3d6f82d42f30021012d324c62799b661</application>
+        <file_path/>
+        <instance_id>d88b99ccdbf357800e785d00cf961933</instance_id>
+        <instance_name>dev68654</instance_name>
+        <name>sys_wizard_answer_675ec80d2f30c21012d324c62799b668</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>HR Task</answer><button_label/><dependent_value/><element/><name>HR Task</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">4b8574397d31311076daf29f52070d17</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-03-05 14:51:28</sys_created_on><sys_id>675ec80d2f30c21012d324c62799b668</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HR Task</sys_name><sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package><sys_policy/><sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope><sys_update_name>sys_wizard_answer_675ec80d2f30c21012d324c62799b668</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-03-05 14:51:28</sys_updated_on><table/><target_url>x_1327411_hr_hr_task.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1663744675</payload_hash>
+        <record_name>HR Task</record_name>
+        <reverted_from/>
+        <source>636ac7222f20021012d324c62799b656</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2024-02-27 10:08:19</sys_created_on>
+        <sys_id>841450052f70c21012d324c62799b6b6</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>18dea095e380000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>441450050b70c210ba966229227717b6</update_guid>
+        <update_guid_history>441450050b70c210ba966229227717b6:-1663744675</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-05 15:16:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>3930ece8122e411a8fc06ce0a9f72e64</sys_id>
+        <sys_metadata>675ec80d2f30c21012d324c62799b668</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR Task</sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_parent display_value="Task">4b8574397d31311076daf29f52070d17</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_scope_delete display_value="">75230a4f064f44eea82eee919622d7e9</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_675ec80d2f30c21012d324c62799b668</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_675ec80d2f30c21012d324c62799b668">841450052f70c21012d324c62799b6b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-05 15:16:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
