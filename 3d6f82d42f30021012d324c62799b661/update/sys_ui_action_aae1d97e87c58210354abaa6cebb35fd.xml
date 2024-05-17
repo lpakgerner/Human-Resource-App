@@ -34,7 +34,7 @@
 	g_form.setValue('state', 3); 
 	g_form.setMandatory('comments', true);
 
-   if (clickHTClosed()) {
+   if (clickHTClosed) {
         gsftSubmit(null, g_form.getFormElement(), 'ht_closed');
     } else {
         return false;
@@ -58,7 +58,7 @@ function serverHTClosed() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aae1d97e87c58210354abaa6cebb35fd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Close</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
@@ -66,7 +66,7 @@ function serverHTClosed() {
         <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
         <sys_update_name>sys_ui_action_aae1d97e87c58210354abaa6cebb35fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-23 16:51:35</sys_updated_on>
+        <sys_updated_on>2024-03-24 12:09:41</sys_updated_on>
         <table>x_1327411_hr_human_resources_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

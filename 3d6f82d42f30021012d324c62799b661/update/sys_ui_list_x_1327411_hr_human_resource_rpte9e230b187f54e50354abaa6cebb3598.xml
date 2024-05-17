@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1327411_hr_human_resource" version="2" view="RPTe9e230b187f54e50354abaa6cebb3598">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>8d2534b187394e50354abaa6cebb358e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requested_for</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>052534b187394e50354abaa6cebb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>short_description</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>852534b187394e50354abaa6cebb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>priority</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>092534b187394e50354abaa6cebb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>892534b187394e50354abaa6cebb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>0d2534b187394e50354abaa6cebb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>8d2534b187394e50354abaa6cebb358f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>012534b187394e50354abaa6cebb3590</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>close_code</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>812534b187394e50354abaa6cebb3590</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>close_notes</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>052534b187394e50354abaa6cebb3590</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>closed_at</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>852534b187394e50354abaa6cebb3590</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>closed_by</element>
+            <list_id display_value="x_1327411_hr_human_resource" element="NULL" name="x_1327411_hr_human_resource" parent="NULL" relationship="NULL" sys_domain="global" view="0d2534b187394e50354abaa6cebb358c">012534b187394e50354abaa6cebb358e</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_id>092534b187394e50354abaa6cebb3590</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1327411_hr_human_resource</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-26 18:39:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>012534b187394e50354abaa6cebb358e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1327411_hr_human_resource</sys_name>
+            <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+            <sys_update_name>sys_ui_list_x_1327411_hr_human_resource_RPTe9e230b187f54e50354abaa6cebb3598</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-26 18:39:07</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpte9e230b187f54e50354abaa6cebb3598" name="RPTe9e230b187f54e50354abaa6cebb3598">0d2534b187394e50354abaa6cebb358c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -18,11 +18,11 @@
         </element>
         <element label="Resolved By" max_length="32" name="resolved_by" reference="sys_user" type="reference"/>
         <element label="Source" max_length="32" name="source" reference="sc_cat_item" type="reference"/>
-        <element choice="3" label="Type" mandatory="true" max_length="40" name="type" type="choice">
+        <element choice="1" label="Type" mandatory="true" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Benefits" sequence="1" value="benefits"/>
                 <element inactive_on_update="false" label="Confidential" sequence="2" value="confidential"/>
-                <element inactive_on_update="false" label="General HR" sequence="3" value="generalhr"/>
+                <element inactive_on_update="false" label="General HR" sequence="3" value="general_hr"/>
                 <element inactive_on_update="false" label="Payroll" sequence="4" value="payroll"/>
                 <element inactive_on_update="false" label="Training" sequence="5" value="training"/>
             </choice>

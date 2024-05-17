@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2024-04-28 12:50:55</from>
+        <glyph>money</glyph>
+        <glyph_alt_text/>
+        <name>401k webinar</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Silver Financial Services will lead a webinar on their 401k offerings. &#13;
+&#13;
+Please Accept meeting invitation from Sheri if you plan to be in attendance. </summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 12:52:00</sys_created_on>
+        <sys_id>0b68b51287750290354abaa6cebb350c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>401k webinar</sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>announcement_0b68b51287750290354abaa6cebb350c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 12:52:06</sys_updated_on>
+        <title>401k webinar is scheduled for Monday, May 13th, at 2 PM EST</title>
+        <to/>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=0b68b51287750290354abaa6cebb350c"/>
+</record_update>

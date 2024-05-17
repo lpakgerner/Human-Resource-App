@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="New Tab 1">92c4f87187394e50354abaa6cebb356c</canvas_page>
+        <name>5ec4f87187394e50354abaa6cebb356eNew Tab 1</name>
+        <page display_value="New Tab 1">5ec4f87187394e50354abaa6cebb356a</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 18:37:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ec4f87187394e50354abaa6cebb356e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>5ec4f87187394e50354abaa6cebb356eNew Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>pa_tabs_5ec4f87187394e50354abaa6cebb356e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 18:37:34</sys_updated_on>
+    </pa_tabs>
+</record_update>

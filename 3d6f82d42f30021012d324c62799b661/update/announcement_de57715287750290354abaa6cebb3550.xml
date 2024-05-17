@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Urgent">339ea11ae7d4030075c2a117c2f6a9cf</display_style>
+        <from>2024-04-28 12:45:59</from>
+        <glyph>stethoscope</glyph>
+        <glyph_alt_text/>
+        <name>Open Enrollment</name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Open enrollment ends on Friday, May 26th at 12 pm EST. Please submit your enrollment if you plan to change your insurance at your earliest convenience. </summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 12:49:33</sys_created_on>
+        <sys_id>de57715287750290354abaa6cebb3550</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Enrollment</sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>announcement_de57715287750290354abaa6cebb3550</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 12:49:33</sys_updated_on>
+        <title>Health Insurance Open Enrollment ends Friday, May 26th!</title>
+        <to/>
+        <type>52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=de57715287750290354abaa6cebb3550"/>
+</record_update>

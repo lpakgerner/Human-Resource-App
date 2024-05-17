@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1327411_hr.userInfoUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>userInfoUtils</name>
+        <script><![CDATA[var userInfoUtils = Class.create();
+userInfoUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	fetchUserName: function(){
+		var userID = this.getParameter('sysparm_user_sys_id');
+		var result = '';
+
+		var grUserInfo = new GlideRecord('sys_user');
+		grUserInfo.addQuery('sys_id', userID);
+		grUserInfo.query(); 
+
+		if (grUserInfo.next()){
+
+			result = grUserInfo.getValue('user_name'); 
+
+		} 
+		return result; 
+	}, 
+
+	getLocation: function(){
+		var location = ''; 
+		var userProfile = this.getParameter('sysparm_user_sys_id');
+
+		var grLocation = new GlideRecord('sys_user');
+		grLocation.addQuery('sys_id', userProfile);
+		grLocation.query(); 
+
+		if (grLocation.next()){
+
+			location = grLocation.getValue('location'); 
+
+		} 
+		return location;
+
+	},
+
+	getUserPhone: function(){
+		var phoneNumber = ''; 
+		var userProfile = this.getParameter('sysparm_user_sys_id');
+
+		var grPhoneNumber = new GlideRecord('sys_user');
+		grPhoneNumber.addQuery('sys_id', userProfile);
+		grPhoneNumber.query(); 
+
+		if (grPhoneNumber.next()){
+
+			phoneNumber = grPhoneNumber.getValue('phone'); 
+
+		} 
+		return phoneNumber;
+
+
+	},
+
+	getUserEmail: function(){
+		var userEmail = ''; 
+		var userProfile = this.getParameter('sysparm_user_sys_id');
+
+		var grEmail = new GlideRecord('sys_user');
+		grEmail.addQuery('sys_id', userProfile);
+		grEmail.query(); 
+
+		if (grEmail.next()){
+
+			userEmail = grEmail.getValue('email'); 
+
+		} 
+		return userEmail;
+
+	},
+	
+    type: 'userInfoUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-04 20:38:33</sys_created_on>
+        <sys_id>88cc776a87198a10354abaa6cebb358b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>userInfoUtils</sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>sys_script_include_88cc776a87198a10354abaa6cebb358b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-07 11:47:05</sys_updated_on>
+    </sys_script_include>
+</record_update>

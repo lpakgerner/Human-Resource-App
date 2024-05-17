@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_announcement_portal">
+    <m2m_announcement_portal action="INSERT_OR_UPDATE">
+        <announcement display_value="Introducing Empower Services banner">8bb535de87350290354abaa6cebb35ac</announcement>
+        <order>100</order>
+        <sp_portal display_value="Human Resources ">82cbfc7087790a50354abaa6cebb35e3</sp_portal>
+        <sys_class_name>m2m_announcement_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 12:41:05</sys_created_on>
+        <sys_id>ca367dde87350290354abaa6cebb3566</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Introducing Empower Services banner.Human Resources </sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>m2m_announcement_portal_ca367dde87350290354abaa6cebb3566</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 12:41:05</sys_updated_on>
+    </m2m_announcement_portal>
+</record_update>

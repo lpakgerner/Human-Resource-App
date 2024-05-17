@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -31,9 +31,11 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-current.clear('close_code');
-	// Add your code here
-current.update();
+current.close_code = '';
+current.close_notes = '';
+current.closed_by = '';
+current.resolved = '';
+current.resolved_by = '';
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -41,7 +43,7 @@ current.update();
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b9595c692f45421012d324c62799b6a7</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Clear Closure fields</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
@@ -49,7 +51,7 @@ current.update();
         <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
         <sys_update_name>sys_script_b9595c692f45421012d324c62799b6a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-19 15:58:02</sys_updated_on>
+        <sys_updated_on>2024-03-28 15:26:02</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

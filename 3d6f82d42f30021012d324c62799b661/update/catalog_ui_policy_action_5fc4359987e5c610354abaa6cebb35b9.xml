@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Employee Separation (Remove IT Access)">b70415d18765c610354abaa6cebb35e2</catalog_item>
+        <catalog_variable>IO:3b63f19987e5c610354abaa6cebb3514</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-12 23:44:52</sys_created_on>
+        <sys_id>5fc4359987e5c610354abaa6cebb35b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>separation_date</sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5fc4359987e5c610354abaa6cebb35b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-12 23:44:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="show Separation Date when type is Resignation or Termination">b054715d87e5c610354abaa6cebb3547</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>separation_date</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

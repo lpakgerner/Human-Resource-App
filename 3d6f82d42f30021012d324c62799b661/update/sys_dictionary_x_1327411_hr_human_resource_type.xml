@@ -10,7 +10,7 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice>3</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Type</column_label>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
         <sys_update_name>sys_dictionary_x_1327411_hr_human_resource_type</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-04 16:40:12</sys_updated_on>
+        <sys_updated_on>2024-04-04 15:45:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

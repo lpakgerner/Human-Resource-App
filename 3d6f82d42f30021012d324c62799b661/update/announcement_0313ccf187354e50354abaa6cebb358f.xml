@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target>urlNew</click_target>
+        <details/>
+        <details_link_text>More here.</details_link_text>
+        <details_page/>
+        <details_url>www.imdb.com</details_url>
+        <dismiss_options>dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2024-04-26 15:02:58</from>
+        <glyph>exclamation-circle</glyph>
+        <glyph_alt_text/>
+        <name>New HR Policies to be implemented </name>
+        <public>true</public>
+        <roles/>
+        <show_for_unauthenticated_users_only>false</show_for_unauthenticated_users_only>
+        <summary>Please read the new handbook from Empower Services and contact Sheri from HR with any questions. </summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 15:04:48</sys_created_on>
+        <sys_id>0313ccf187354e50354abaa6cebb358f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>New HR Policies to be implemented </sys_name>
+        <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
+        <sys_update_name>announcement_0313ccf187354e50354abaa6cebb358f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 12:43:15</sys_updated_on>
+        <title>New HR Policies to be implemented </title>
+        <to/>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=0313ccf187354e50354abaa6cebb358f"/>
+</record_update>

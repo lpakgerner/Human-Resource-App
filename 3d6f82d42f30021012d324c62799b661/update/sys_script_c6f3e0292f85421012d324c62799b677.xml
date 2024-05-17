@@ -29,9 +29,45 @@
         <rest_service_text/>
         <rest_variables/>
         <role_conditions/>
-        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
-var HTask = new GlideRecord('x_1327411_hr_human_resources_task');
-HTask.addActiveQuery(current.sys_id);   //Search for all active HT tasks associated with the HR Ticket.
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var HTask = new GlideRecord('x_1327411_hr_human_resources_task');
+    HTask.addQuery('parent', current.sys_id); //Need to find associative HR tickets ('parent', current.sys_id)
+    HTask.addActiveQuery(); //Search for all active HT tasks within the previous query.
+    HTask.query(); //Iterate through the list 
+
+    while (HTask.next()) {
+        HTask.work_notes = current.comments;
+        HTask.update();
+    }
+
+})(current, previous);
+
+
+/* Attempt 1: https://www.servicenow.com/community/now-platform-articles/copy-task-comments-and-worknotes-to-parent-request-item/ta-p/2324086
+
+    if (current.comments.nil()) {
+        return;
+    } else {
+        var HTask = new GlideRecord('x_1327411_hr_human_resources_task');
+        HTask.addQuery('parent', current.sys_id); //Need to find associative HR tickets ('parent', current.sys_id)
+        HTask.addActiveQuery(); //Search for all active HT tasks within the previous query.
+        HTask.query(); //Iterate through the list 
+
+        if (HTask.next()) {
+            var updateTaskNote = new GlideRecord('x_1327411_hr_human_resources_task');
+            updateTaskNote.work_notes = current.comments;
+            updateTaskNote.update();
+        }
+    }
+*/
+
+
+
+
+//what I had before:
+/*var HTask = new GlideRecord('x_1327411_hr_human_resources_task');
+HTask.addQuery('parent', current.sys_id); //Need to find associative HR tickets ('parent', current.sys_id)
+HTask.addActiveQuery();   //Search for all active HT tasks within the previous query.
 HTask.query(); //Iterate through the list 
 
 if (HTask.next()){
@@ -39,16 +75,35 @@ if (HTask.next()){
 	updateTaskNote.setValue('work_notes', current.comments);
 	updateTaskNote.update();
 }
-	// Add your code here
+*/
 
-})(current, previous);]]></script>
+
+//from state is resolved BR
+
+/*    var grActiveHT = new GlideRecord('x_1327411_hr_human_resources_task');
+    grActiveHT.addQuery('parent', current.sys_id);
+    grActiveHT.addActiveQuery(); //search all active HTask 
+    grActiveHT.query();
+
+    if (grActiveHT.next()) { //if there are any active HTask...
+
+        gs.addErrorMessage("Please close all active tasks before Resolving this ticket"); //print this error message
+        current.setAbortAction(true); //aborts action to the database (cancel)
+    }
+
+else { //if there are no active HTasks...
+	current.resolved_by = gs.getUserID();  //find the logged-in user. 
+	current.resolved = new GlideDateTime().getDisplayValue();  //getDisplayValue will give display value of GDT (UTC value). Current date/time
+
+}
+*/]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-03-19 16:02:40</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c6f3e0292f85421012d324c62799b677</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Copy Comments to Task Work Note</sys_name>
         <sys_overrides/>
         <sys_package display_value="Human Resource" source="x_1327411_hr">3d6f82d42f30021012d324c62799b661</sys_package>
@@ -56,7 +111,7 @@ if (HTask.next()){
         <sys_scope display_value="Human Resource">3d6f82d42f30021012d324c62799b661</sys_scope>
         <sys_update_name>sys_script_c6f3e0292f85421012d324c62799b677</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-19 16:35:21</sys_updated_on>
+        <sys_updated_on>2024-03-27 22:48:35</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
